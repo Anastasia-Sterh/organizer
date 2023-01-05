@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+  min-height: 100vh;
+
+
+}
+
+.header {
+  color: white;
+  font-family: sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-shadow: 1px 1px 1px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 45px;
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+
+}
+
+.help {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.help b {
+  margin: 8px;
+  font-size: 20px;
+}
+
+.icon_list:hover {
+  animation: headShake 1s;
+}
+
+.form {
+  width: 400px;
+  min-height: 400px;
+  background-color: white;
+  color: rgb(39, 35, 35);
+  text-shadow: 1px 1px 1px rgb(119, 117, 117);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px grey;
+
+
+}
+
+.form_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+}
+
+.form_top .contextMenu {
+  left: 194px;
+  top: 28px;
+}
+
+.form h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.container_form_input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form_input {
+  padding: 7px;
+  margin: 5px;
+  width: 100%;
+  height: 25px;
+  border-radius: 3px;
+  border: 1px solid rgb(99, 98, 98);
+  font-family: sans-serif;
+
+}
+
+.form_button {
+  box-sizing: content-box;
+  padding: 9px;
+  height: 25px;
+  width: 25px;
+  margin-right: 3px;
+  color: white;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px black;
+  background-color: #8e4ae8;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form_button:active {
+  background-color: rgb(113, 113, 182);
+  cursor: pointer;
+}
+
+.li_button {
+  box-sizing: content-box;
+  padding: 9px;
+  height: 20px;
+  width: 20px;
+  margin: 3px;
+  color: white;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px black;
+  background-color: #f37209;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.li_button:active {
+  background-color: rgb(249, 53, 4);
+  cursor: pointer;
+}
+
+.div_li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px;
+  border-left: 5px solid gray;
+  margin-top: 4px;
+  padding-left: 7px;
+
+
+}
+
+.div_li--family {
+  border-color: red;
+}
+
+.div_li--hobbie {
+  border-color: purple;
+}
+
+.div_li--friends {
+  border-color: orange;
+}
+
+.div_li--health {
+  border-color: green;
+}
+
+.div_li--career {
+  border-color: blue;
+}
+
+.div_li--growth {
+  border-color: yellow;
+}
+
+
+.div_li:hover {
+  background-color: rgb(219, 217, 217);
+}
+
+ul {
+  /* list-style-image: url(../star.png); */
+  list-style: none;
+  padding-left: 5px;
+}
+
+p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div_li_buttons {
+  display: flex;
+  cursor: pointer;
+}
+
+.check_button {
+  background-color: green;
+  cursor: pointer;
+}
+
+.text_decoration {
+  text-decoration: underline;
+  color: rgb(142 142 142);
+  text-shadow: none;
+  text-decoration-thickness: 2px;
+  text-underline-offset: -44%;
+  text-decoration-skip-ink: none;
+}
+
+.container_for_form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  justify-items: center;
+  margin-bottom: 50px;
+}
+
+.icons {
+  display: flex;
+
+}
+
+.icon_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.icon_list b {
+  font-size: 17px;
+  padding: 7px;
+}
+
+.contextMenu {
+  position: absolute;
+  background-color: white;
+  width: 200px;
+  height: max-content;
+  left: 210px;
+  top: 30px;
+  color: black;
+  z-index: 1;
+  border: 1px solid black;
+  box-shadow: 1px 1px 3px black;
+}
+
+.contextMenu p {
+  margin: 0;
+  padding: 7px;
+  cursor: pointer;
+
+}
+
+.contextMenu p:hover {
+  background-color: #c3b0dc;
+}
+
+
+li {
+  position: relative;
+  margin: 0px;
+
+}
+
+.filter {
+  cursor: pointer;
+}
+
+.all_screen {
+  position: fixed;
+  background: rgba(0, 0, 0, .7);
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
